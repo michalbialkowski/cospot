@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+  .section__page__header {
+    padding-top: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .section__page__header__main__navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+}

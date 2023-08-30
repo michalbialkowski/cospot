@@ -8,8 +8,21 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/libs/flickity.css">
+    <link rel="stylesheet" href="assets/css/libs/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/styles.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/content-box.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/header/main.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/main/intro.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/main/map.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/opacity.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/typography.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/sizes.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/flickity.compiled.css">
+    <link rel="stylesheet" href="assets/css/bg-area.compiled.css">
+    <link rel="stylesheet" href="assets/css/sticky-form.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/modal.compiled.css">
 </head>
 
 <body>
@@ -49,8 +62,8 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header d-flex justify-content-end border-0 p-0">
-                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button type="button" class="close" data-dismiss="modal"
-                                    aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button class="close" type="button" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                            </div>
                             <div class="modal-body">
                                 <div class="container">
                                     <div class="row">
@@ -107,8 +120,7 @@
                                         <div class="d-flex justify-content-center"><a href="#"><img class="width--120" src="assets/img/mini_easyshare-logo-cospot-crop.png"></a></div>
                                     </div>
                                     <div class="col py-3">
-                                        <p class="lead text-center font-weight-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus, odio non tempor varius, ipsum ligula aliquam magna, non sollicitudin leo felis ullamcorper lorem.&nbsp;Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing elit. Ut maximus, odio non tempor varius, ipsum ligula aliquam magna, non sollicitudin leo felis ullamcorper lorem.</p>
+                                        <p class="lead text-center font-weight-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus, odio non tempor varius, ipsum ligula aliquam magna, non sollicitudin leo felis ullamcorper lorem.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus, odio non tempor varius, ipsum ligula aliquam magna, non sollicitudin leo felis ullamcorper lorem.</p>
                                     </div>
                                 </div>
                             </div>
@@ -212,68 +224,29 @@
                                         <div class="horizontal-scroll">
                                             <div class="columns">
                                                 <p class="text-justify"><strong>Cześć Karolino,</strong><br><strong>Czym się zajmujesz i jak trafiłaś do Cospotu?</strong><br></p>
-                                                <p class="text-justify">Prowadzę firmę interaktywną oraz konsultingową KDMC. Zajmuję się głównie tworzeniem stron internetowych oraz analizą biznesową. Z projektowaniem stron byłam związana od dawna, skończyłam studia na kierunku
-                                                    grafiki komputerowej. Natomiast analiza przyszła później. Specjalizuję się w rynku Zjednoczonych Emiratów Arabskich, gdzie mieszkałam parę lat oraz gdzie nadal mam przyjaciół oraz częściowo rodzinę.
-                                                    Firmę KDMC skupiam najmocniej na projektowaniu i wdrażaniu stron internetowych, gdzie mogę się pochwalić już zrealizowanymi ciekawymi projektami, takimi jak strona internetowa dla fundacji WWF Polska,
-                                                    Wars. S.A. czy ostatnio pozyskanym klientem Termika PGNiG. Pozyskuję większych klientów z rynku, ponieważ takie projekty są długoterminowe i bezpieczniejsze finansowo.&nbsp;<br></p>
-                                                <p class="text-justify">Do Cospotu trafiłam poszukując biura urządzonego na najwyższym poziomie, gdzie oprócz ciekawego wnętrza znajdę ciekawych ludzi do współpracy. Pośród społeczności coworkingowej nie szukam klientów, ponieważ
-                                                    staram się obsługiwać większych graczy, natomiast poszukuję zdolnych freelancerów do współpracy przy projektach. Bez zdolnej kadry nie mogłabym realizować projektów. Czasami są to filmowcy czy fotografowie,
-                                                    coraz częściej graficy 3D i animatorzy a najcenniejszym nabytkiem są zdolni programiści, o których dziś jest bardzo trudno.&nbsp;<br></p>
+                                                <p class="text-justify">Prowadzę firmę interaktywną oraz konsultingową KDMC. Zajmuję się głównie tworzeniem stron internetowych oraz analizą biznesową. Z projektowaniem stron byłam związana od dawna, skończyłam studia na kierunku grafiki komputerowej. Natomiast analiza przyszła później. Specjalizuję się w rynku Zjednoczonych Emiratów Arabskich, gdzie mieszkałam parę lat oraz gdzie nadal mam przyjaciół oraz częściowo rodzinę. Firmę KDMC skupiam najmocniej na projektowaniu i wdrażaniu stron internetowych, gdzie mogę się pochwalić już zrealizowanymi ciekawymi projektami, takimi jak strona internetowa dla fundacji WWF Polska, Wars. S.A. czy ostatnio pozyskanym klientem Termika PGNiG. Pozyskuję większych klientów z rynku, ponieważ takie projekty są długoterminowe i bezpieczniejsze finansowo.&nbsp;<br></p>
+                                                <p class="text-justify">Do Cospotu trafiłam poszukując biura urządzonego na najwyższym poziomie, gdzie oprócz ciekawego wnętrza znajdę ciekawych ludzi do współpracy. Pośród społeczności coworkingowej nie szukam klientów, ponieważ staram się obsługiwać większych graczy, natomiast poszukuję zdolnych freelancerów do współpracy przy projektach. Bez zdolnej kadry nie mogłabym realizować projektów. Czasami są to filmowcy czy fotografowie, coraz częściej graficy 3D i animatorzy a najcenniejszym nabytkiem są zdolni programiści, o których dziś jest bardzo trudno.&nbsp;<br></p>
                                                 <p class="text-justify"><strong>Jakimi projektami możesz się pochwalić? Które były dla Ciebie ciekawe?</strong><br></p>
-                                                <p class="text-justify">Miałam szczęście pracować dla bardzo ciekawych klientów. Z prestiżowych projektów związanych z brandingiem mogę wymienić stworzenie 6 nowych logotypów dla Głównego Urzędu Statystycznego w Warszawie wraz
-                                                    z opracowaniem ksiąg znaku dla logotypów oraz zgłoszeniem ich do urzędu patentowego. Z badań doradczych mogę wymienić Assiduus Consulting, gdzie przez pół roku zajmowałam się badaniem inwestycji w apart
-                                                    hotele na terenie emiratu Ras Al Khaimah, gdzie firma Assiduus miała wejść jako partner dla tej inwestycji. Mniejszym wyzwaniem, ale jednocześnie bliskim mojemy sercu była ostatnio oddana strona dla
-                                                    fundacji WWF Polska, czy też strona internetowa dla szpitala w Krakowie, w którym organizowane są szkolenia dla opiekunów osób starszych. Z ważniejszych stron internetowych mogę również wymienić tą zrealizowaną
-                                                    dla Wars. S.A.&nbsp;<br></p>
+                                                <p class="text-justify">Miałam szczęście pracować dla bardzo ciekawych klientów. Z prestiżowych projektów związanych z brandingiem mogę wymienić stworzenie 6 nowych logotypów dla Głównego Urzędu Statystycznego w Warszawie wraz z opracowaniem ksiąg znaku dla logotypów oraz zgłoszeniem ich do urzędu patentowego. Z badań doradczych mogę wymienić Assiduus Consulting, gdzie przez pół roku zajmowałam się badaniem inwestycji w apart hotele na terenie emiratu Ras Al Khaimah, gdzie firma Assiduus miała wejść jako partner dla tej inwestycji. Mniejszym wyzwaniem, ale jednocześnie bliskim mojemy sercu była ostatnio oddana strona dla fundacji WWF Polska, czy też strona internetowa dla szpitala w Krakowie, w którym organizowane są szkolenia dla opiekunów osób starszych. Z ważniejszych stron internetowych mogę również wymienić tą zrealizowaną dla Wars. S.A.&nbsp;<br></p>
                                                 <p class="lead text-center text-black-50 py-3 border-top border-bottom font-weight-normal"><em>Myślę, że w przypadku branży informatycznej, na razie mocno zdominowanej przez mężczyzn, pojawia się coraz więcej odważnych kobiet</em><br></p>
-                                                <p class="text-justify">Bardzo emocjonuje mnie przyszła współpraca z PGNiG, będzie realizować nowy portal wraz z późniejszą rozbudową serwisu i opieką nad nim przez okres 3 lat. Mam szerokie plany rozwojowe na 2020 rok, również
-                                                    związane z rozszerzeniem działań na rynkach zagranicznych.<br></p>
+                                                <p class="text-justify">Bardzo emocjonuje mnie przyszła współpraca z PGNiG, będzie realizować nowy portal wraz z późniejszą rozbudową serwisu i opieką nad nim przez okres 3 lat. Mam szerokie plany rozwojowe na 2020 rok, również związane z rozszerzeniem działań na rynkach zagranicznych.<br></p>
                                                 <p class="text-justify"><strong>Jakie dziedziny firmy chciałabyś rozwinąć?</strong><br></p>
-                                                <p class="text-justify">Pod względem specjalizacji chciałabym wejść na rynek aplikacji mobilnych oraz grafiki 3D. Wynika to przede wszystkim z potrzeby rynku, jest ogromna popyt na tego typu prace. Dopóki rynek jest tak chłonny
-                                                    pojawia się duża możliwość zarobkowa.&nbsp;<br></p>
+                                                <p class="text-justify">Pod względem specjalizacji chciałabym wejść na rynek aplikacji mobilnych oraz grafiki 3D. Wynika to przede wszystkim z potrzeby rynku, jest ogromna popyt na tego typu prace. Dopóki rynek jest tak chłonny pojawia się duża możliwość zarobkowa.&nbsp;<br></p>
                                                 <p class="text-justify"><strong>Jak postrzegasz siebie i swoją firmę w przyszłości?</strong><br></p>
-                                                <p class="text-justify">Sądzę, że wiele osób chce osiągnąć wielki sukces, ale nie jest w stanie do końca zobaczyć gdzie chcą być za 5 czy 10 lat. Ja nie mam takich planów, ponieważ skromnie mówiąc o sobie, uważam się raczej za
-                                                    brokera pozyskującego ciekawe projekty czy wyzwania niż za wielkiego przedsiębiorcę. Życzyłabym sobie dalszego sukcesu w pozyskiwaniu coraz większych marek oraz ich projektów do prowadzenia oraz do rozwinięcia
-                                                    siebie jako lepszego managera. Pozyskując ciekawsze projekty zyskam lepszą kadrę wykonawców i większy budżet a wówczas firma sama się rozwinie. Widzę to na kilka sposób. Po pierwsze wykonując długotrwałe
-                                                    projekty informatyczne dla znanych marek. Po drugie sprzedając czas i wiedzę zespołu dla większych koncernów, również informatycznych. Po trzecie, poprzez określenie własnego produktu informatycznego
-                                                    B2C. Zobaczymy który sposób sprawdzi się w moim przypadku najlepiej.<br></p>
+                                                <p class="text-justify">Sądzę, że wiele osób chce osiągnąć wielki sukces, ale nie jest w stanie do końca zobaczyć gdzie chcą być za 5 czy 10 lat. Ja nie mam takich planów, ponieważ skromnie mówiąc o sobie, uważam się raczej za brokera pozyskującego ciekawe projekty czy wyzwania niż za wielkiego przedsiębiorcę. Życzyłabym sobie dalszego sukcesu w pozyskiwaniu coraz większych marek oraz ich projektów do prowadzenia oraz do rozwinięcia siebie jako lepszego managera. Pozyskując ciekawsze projekty zyskam lepszą kadrę wykonawców i większy budżet a wówczas firma sama się rozwinie. Widzę to na kilka sposób. Po pierwsze wykonując długotrwałe projekty informatyczne dla znanych marek. Po drugie sprzedając czas i wiedzę zespołu dla większych koncernów, również informatycznych. Po trzecie, poprzez określenie własnego produktu informatycznego B2C. Zobaczymy który sposób sprawdzi się w moim przypadku najlepiej.<br></p>
                                                 <p><strong>Czy kobiecie łatwo jest prowadzić biznes związany z informatyką?</strong><br></p>
-                                                <p class="text-justify">Dla mnie nigdy nie było to trudne, być może wynika to z mojej osobowości. Jeśli czegoś nie wiem to pytam. Zawsze idę do przodu. Lepiej pracuje mi się z mężczyznami, są nastawieni na cele i mniej emocjonalni.
-                                                    W Emiratach pracowałam jako broker i nigdy nie spotkałam się z degradacją ze strony mężczyzn. Myślę, że w przypadku branży informatycznej, na razie mocno zdominowanej przez mężczyzn, pojawia się coraz
-                                                    więcej odważnych kobiet. Biorąc pod uwagę że w programowaniu liczy się cierpliwość i spostrzegawczość, sądzę, że wiele Pań świetnie by się w takim zawodzie sprawdziło.&nbsp;<br></p>
+                                                <p class="text-justify">Dla mnie nigdy nie było to trudne, być może wynika to z mojej osobowości. Jeśli czegoś nie wiem to pytam. Zawsze idę do przodu. Lepiej pracuje mi się z mężczyznami, są nastawieni na cele i mniej emocjonalni. W Emiratach pracowałam jako broker i nigdy nie spotkałam się z degradacją ze strony mężczyzn. Myślę, że w przypadku branży informatycznej, na razie mocno zdominowanej przez mężczyzn, pojawia się coraz więcej odważnych kobiet. Biorąc pod uwagę że w programowaniu liczy się cierpliwość i spostrzegawczość, sądzę, że wiele Pań świetnie by się w takim zawodzie sprawdziło.&nbsp;<br></p>
                                                 <p class="text-justify"><strong>Co uważasz za swój sukces? Jakie są problemy lub przeszkody z jakim się spotykasz na codzień w pracy a co najbardziej Cię cieszy?</strong><br></p>
-                                                <p class="text-justify">Pracuję głównie z klientem instytucjonalnym, co oznacza wymóg dokładności i oddania projektu w terminie bez usterek. Mogę to wymienić jako największy plus. Lubię uporządkowanie i konkretne ramy działania.
-                                                    System 0-1 daje mi poczucie bezpieczeństwa. Nie lubię chaosu i emocjonalności klientów prywatnych. Oczywiście i takie zlecenia czasami przyjmuję. Dość trudnym elementem mojej pracy jest wymóg samodyscypliny
-                                                    i walki ze zniechęceniem, które pojawia się w każdej pracy. Najczęściej spędzam czas śledząc dokumentację oraz umowy, co akurat bardzo mi odpowiada. Najbardziej cieszy mnie zakończony z sukcesem projekt
-                                                    oraz pojawiająca się szansa na nowe ciekawe wyzwanie. Sam początek i koniec procesu uważam za najciekawszy i najbardziej emocjonujący.&nbsp;<br></p>
+                                                <p class="text-justify">Pracuję głównie z klientem instytucjonalnym, co oznacza wymóg dokładności i oddania projektu w terminie bez usterek. Mogę to wymienić jako największy plus. Lubię uporządkowanie i konkretne ramy działania. System 0-1 daje mi poczucie bezpieczeństwa. Nie lubię chaosu i emocjonalności klientów prywatnych. Oczywiście i takie zlecenia czasami przyjmuję. Dość trudnym elementem mojej pracy jest wymóg samodyscypliny i walki ze zniechęceniem, które pojawia się w każdej pracy. Najczęściej spędzam czas śledząc dokumentację oraz umowy, co akurat bardzo mi odpowiada. Najbardziej cieszy mnie zakończony z sukcesem projekt oraz pojawiająca się szansa na nowe ciekawe wyzwanie. Sam początek i koniec procesu uważam za najciekawszy i najbardziej emocjonujący.&nbsp;<br></p>
                                                 <p class="text-justify"><strong>Wracając jeszcze do epizodu bycia brokerem w Dubaju, co sprawiło że wróciłaś do branży IT?</strong><br></p>
-                                                <p class="text-justify">Przyjeżdżając do Zjednoczonych Emiratów Arabskich miałam wielkie nadzieje związane z tym krajem. Pracę jako broker znalazłam bardzo szybko, od kolegi dowiedziałam się o otwarciu nowego znanego biura pośrednictwa
-                                                    Engel&amp;Volkers i postanowiłam spróbować swoich sił w nowym zawodzie. Pomimo że firma Engel&amp;Volkers to jedna z najlepszych firm brokerskich na świecie, a ja otrzymałam wyróżnienie za swoją pracę
-                                                    - 1 z 5 najlepszych brokerów w dziale leasingu, to zawsze brakowało mi informatyki. Praca brokera nieruchomości różni się od znacznie od ścisłej pracy prowadzenia projektów. Brakowało mi uporządkowania,
-                                                    pracy z komputerem. Pasują do mnie bardziej spokojnie, wymagające skupienia zadania, w których mam pojawiają się pewnego rodzaju łamigówki do rozwiązania niż ciągły kontakt z ludźmi w głośnym otoczeniu.
-                                                    Podczas pracy w zawodzie brokera starałam się mieć czas na realizację swoich pasji, takich jak malowanie obrazów i czytanie książek. Miałam też styczność z informatyką dzięki pracy męża. Poznałam wielu
-                                                    ciekawych przedsiębiorców związanych z branżą gier i filmów. Chciałam wrócić do branży IT, ale niestety w Emiratach ta branża jest zdominowana przez mężczyzn z krajów azjatyckich, jak Indie.<br></p>
-                                                <p
-                                                    class="text-justify"><strong>Nie pochodzisz z Łodzi prawda? Co sprawiło, że akurat tutaj trafiłaś?</strong><br></p>
-                                                    <p class="text-justify">Faktycznie, pochodzę ze Szczecina, którego zawsze gdziekolwiek jestem mi brakuje. Zawsze tęsknie za rodziną, z która jestem bardzo związana, bliskością morza czy multikulturowego Berlina, położonego
-                                                        zaledwie 100 km od Szczecina.<br></p>
-                                                    <p class="text-justify">Do Łodzi przyjechałam prosto ze Zjednoczonych Emiratów Arabskich ze względu na pracę mojego męża, który pracuje w jeden z większych firm informatycznych i często podróżuje. Czasami kontrakt z klientem
-                                                        wymaga przeniesienia ośrodka życia, więc muszę być elastyczna w podejściu do wyjazdów. Wkrótce mamy się przenieść ponownie za granicę na jakiś czas, liczę że na krótko. Jestem patriotką, uważam,
-                                                        że nie ma lepszego miejsca do życia niż Polska. Mamy tu góry, lasy, morze, jeziora, cztery pory roku. Mieszkając za granicą przez wiele lat zrozumiałam jak ważne są wspólne tradycje i kultura, poczucie
-                                                        humoru. Pomimo, że w Łodzi mieszkam bardzo krótko i w dodatku z przerwami to czuję się tu jak w drugim domu, zdążyliśmy również kupić tu z mężem nieruchomość. Po pierwsze z uwagi na nasze oczarowanie
-                                                        miastem i jego unikalnym klimatem, a po drugie z uwagi na szybki rozwój miasta, co wskazuje na dobrą lokatę kapitału. Ceny nieruchomości w Łodzi wciąż pną się w górę a miasto szybko się rozwija przyciągając
-                                                        przedsiębiorców.&nbsp;<br></p>
-                                                    <p class="text-justify"><strong>Czy lubisz atmosferę Cospotu?</strong><br></p>
-                                                    <p class="text-justify">Właściciela budynku, w którym mieści się Cospot, poznałam zanim powstało biuro. Z siermiężnego budynku w stylu lat 70 powoli zmienia się w biuro na poziomie co najmniej zagranicznego giganta WeWork.
-                                                        Zaimponował mi rozmach i odwaga wizji. Odkryte cegły, mech na ścianie, loftowo unikalne wnętrza to nie wszystko. Właściciele Artur i Teresa wkładają tu prawdziwe serce, są obok, dla ludzi i społeczności.
-                                                        Atmosferę tworzą też inni członkowie, z niektórymi bardzo się zaprzyjaźniłam, odnajdując jako nowy przybysz coś więcej niż relację biurową. Poznałam przyjaciół, dzięki którym czuję się jak w domu.
-                                                        Mogę zaufać kiedy wyjeżdżam zostawiając pod opiekę dom i zwierzęta. Nie wspominając o świetnych podwykonawcach, bez których nie mogłabym w ogóle prowadzić biznesu.&nbsp;<br></p>
-                                                    <p class="text-justify"><strong>Czy poleciłabyś Cospot znajomym?</strong><br></p>
-                                                    <p class="text-justify">Jak najbardziej, analizując rynek łódzki nie ma lepszej lokalizacji na biuro. Poziom wykończenia wnętrza jest wprost niespotykany, w porównaniu nie tylko do podobnych biur w Polsce, ale i na świecie.
-                                                        Ciekawa społeczność tworząca Cospot jak dziennikarze z portalu TuŁódź, czy architekt wnętrz pochodząca z Chile dodają klimatu. Najbardziej zdumiewa mnie różnorodność osobowości tworzącej społeczność.
-                                                        Łodzianie zaskoczyli mnie swoją wylewnością, otwartością oraz mocnym charakterem. Spotkałam tu ludzi którzy są bardzo oryginalni i nie boją się tego pokazać. Po pobycie w Emiratach gdzie głównie
-                                                        spędzałam czas z duńczykami oraz lokalnymi mieszkańcami, ta wylewność wydawała mi się dziwna i męcząca, ale teraz bardzo ją doceniam. Ludzie tu są szczerzy i uczciwi. Jeśli wyjadę za granicę to na
-                                                        pewno będę chciała tu wrócić. Do tej naszej Cospotowej społeczności i Łodzian w ogóle.&nbsp;<br></p>
+                                                <p class="text-justify">Przyjeżdżając do Zjednoczonych Emiratów Arabskich miałam wielkie nadzieje związane z tym krajem. Pracę jako broker znalazłam bardzo szybko, od kolegi dowiedziałam się o otwarciu nowego znanego biura pośrednictwa Engel&amp;Volkers i postanowiłam spróbować swoich sił w nowym zawodzie. Pomimo że firma Engel&amp;Volkers to jedna z najlepszych firm brokerskich na świecie, a ja otrzymałam wyróżnienie za swoją pracę - 1 z 5 najlepszych brokerów w dziale leasingu, to zawsze brakowało mi informatyki. Praca brokera nieruchomości różni się od znacznie od ścisłej pracy prowadzenia projektów. Brakowało mi uporządkowania, pracy z komputerem. Pasują do mnie bardziej spokojnie, wymagające skupienia zadania, w których mam pojawiają się pewnego rodzaju łamigówki do rozwiązania niż ciągły kontakt z ludźmi w głośnym otoczeniu. Podczas pracy w zawodzie brokera starałam się mieć czas na realizację swoich pasji, takich jak malowanie obrazów i czytanie książek. Miałam też styczność z informatyką dzięki pracy męża. Poznałam wielu ciekawych przedsiębiorców związanych z branżą gier i filmów. Chciałam wrócić do branży IT, ale niestety w Emiratach ta branża jest zdominowana przez mężczyzn z krajów azjatyckich, jak Indie.<br></p>
+                                                <p class="text-justify"><strong>Nie pochodzisz z Łodzi prawda? Co sprawiło, że akurat tutaj trafiłaś?</strong><br></p>
+                                                <p class="text-justify">Faktycznie, pochodzę ze Szczecina, którego zawsze gdziekolwiek jestem mi brakuje. Zawsze tęsknie za rodziną, z która jestem bardzo związana, bliskością morza czy multikulturowego Berlina, położonego zaledwie 100 km od Szczecina.<br></p>
+                                                <p class="text-justify">Do Łodzi przyjechałam prosto ze Zjednoczonych Emiratów Arabskich ze względu na pracę mojego męża, który pracuje w jeden z większych firm informatycznych i często podróżuje. Czasami kontrakt z klientem wymaga przeniesienia ośrodka życia, więc muszę być elastyczna w podejściu do wyjazdów. Wkrótce mamy się przenieść ponownie za granicę na jakiś czas, liczę że na krótko. Jestem patriotką, uważam, że nie ma lepszego miejsca do życia niż Polska. Mamy tu góry, lasy, morze, jeziora, cztery pory roku. Mieszkając za granicą przez wiele lat zrozumiałam jak ważne są wspólne tradycje i kultura, poczucie humoru. Pomimo, że w Łodzi mieszkam bardzo krótko i w dodatku z przerwami to czuję się tu jak w drugim domu, zdążyliśmy również kupić tu z mężem nieruchomość. Po pierwsze z uwagi na nasze oczarowanie miastem i jego unikalnym klimatem, a po drugie z uwagi na szybki rozwój miasta, co wskazuje na dobrą lokatę kapitału. Ceny nieruchomości w Łodzi wciąż pną się w górę a miasto szybko się rozwija przyciągając przedsiębiorców.&nbsp;<br></p>
+                                                <p class="text-justify"><strong>Czy lubisz atmosferę Cospotu?</strong><br></p>
+                                                <p class="text-justify">Właściciela budynku, w którym mieści się Cospot, poznałam zanim powstało biuro. Z siermiężnego budynku w stylu lat 70 powoli zmienia się w biuro na poziomie co najmniej zagranicznego giganta WeWork. Zaimponował mi rozmach i odwaga wizji. Odkryte cegły, mech na ścianie, loftowo unikalne wnętrza to nie wszystko. Właściciele Artur i Teresa wkładają tu prawdziwe serce, są obok, dla ludzi i społeczności. Atmosferę tworzą też inni członkowie, z niektórymi bardzo się zaprzyjaźniłam, odnajdując jako nowy przybysz coś więcej niż relację biurową. Poznałam przyjaciół, dzięki którym czuję się jak w domu. Mogę zaufać kiedy wyjeżdżam zostawiając pod opiekę dom i zwierzęta. Nie wspominając o świetnych podwykonawcach, bez których nie mogłabym w ogóle prowadzić biznesu.&nbsp;<br></p>
+                                                <p class="text-justify"><strong>Czy poleciłabyś Cospot znajomym?</strong><br></p>
+                                                <p class="text-justify">Jak najbardziej, analizując rynek łódzki nie ma lepszej lokalizacji na biuro. Poziom wykończenia wnętrza jest wprost niespotykany, w porównaniu nie tylko do podobnych biur w Polsce, ale i na świecie. Ciekawa społeczność tworząca Cospot jak dziennikarze z portalu TuŁódź, czy architekt wnętrz pochodząca z Chile dodają klimatu. Najbardziej zdumiewa mnie różnorodność osobowości tworzącej społeczność. Łodzianie zaskoczyli mnie swoją wylewnością, otwartością oraz mocnym charakterem. Spotkałam tu ludzi którzy są bardzo oryginalni i nie boją się tego pokazać. Po pobycie w Emiratach gdzie głównie spędzałam czas z duńczykami oraz lokalnymi mieszkańcami, ta wylewność wydawała mi się dziwna i męcząca, ale teraz bardzo ją doceniam. Ludzie tu są szczerzy i uczciwi. Jeśli wyjadę za granicę to na pewno będę chciała tu wrócić. Do tej naszej Cospotowej społeczności i Łodzian w ogóle.&nbsp;<br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -353,6 +326,9 @@
                                     <div class="col-12">
                                         <div class="form-group"><input class="form-control" type="email" placeholder="Adres e-mail"></div>
                                     </div>
+                                    <div class="col-12">
+                                        <div class="form-group"><input class="form-control" type="number" placeholder="Ilość osób"></div>
+                                    </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="col-12">
@@ -381,8 +357,8 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header d-flex justify-content-end border-0 p-0">
-                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button type="button" class="close" data-dismiss="modal"
-                                    aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button class="close" type="button" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                            </div>
                             <div class="modal-body">
                                 <div class="container">
                                     <div class="row">
@@ -447,8 +423,7 @@
                             <div class="row">
                                 <div class="col">
                                     <h2 class="text-muted h5 font-weight-bold">O nas</h2>
-                                    <p class="lead">Co:Spot Office and Coworking, to połączenie biura serwisowanego ze społecznością przedsiębiorców, dla których networking jest kluczowy w rozwijaniu swojego biznesu, a wysoki standard biura i jego elastyczność powala
-                                        im pracować z najlepszymi.<br></p>
+                                    <p class="lead">Co:Spot Office and Coworking, to połączenie biura serwisowanego ze społecznością przedsiębiorców, dla których networking jest kluczowy w rozwijaniu swojego biznesu, a wysoki standard biura i jego elastyczność powala im pracować z najlepszymi.<br></p>
                                 </div>
                                 <div class="col-sm-auto">
                                     <div class="d-flex"><a href="https://www.mojekonferencje.pl/lodz/cospot-office-coworking" target="_blank"><img src="assets/img/obiekt_rekomendowany.png"></a></div>
@@ -524,7 +499,11 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/libs/flickity.pkgd.js"></script>
+    <script src="assets/js/libs/jquery.fancybox.js"></script>
+    <script src="assets/js/svg.js"></script>
+    <script src="assets/js/flickity.js"></script>
+    <script src="assets/js/sticky-form.js"></script>
 </body>
 
 </html>

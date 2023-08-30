@@ -1,0 +1,15 @@
+.line-height-normal {
+  line-height: 1.15em;
+}
+
+.columns {
+  -webkit-column-fill: auto;
+  -webkit-column-width: 300px;
+  -webkit-column-gap: 30px;
+  -moz-column-fill: auto;
+  -moz-column-width: 300px;
+  -moz-column-gap: 30px;
+  height: 540px;
+  overflow-x: scroll;
+  hyphens: auto;
+}

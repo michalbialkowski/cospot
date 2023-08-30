@@ -1,0 +1,4 @@
+.section__page__main__map #google__map {
+  height: 480px;
+  max-height: calc(100vh - 3rem);
+}

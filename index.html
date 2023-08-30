@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/libs/flickity.css">
+    <link rel="stylesheet" href="assets/css/libs/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/styles.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/content-box.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/header/main.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/main/intro.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/main/map.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/opacity.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/typography.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/sizes.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/flickity.compiled.css">
+    <link rel="stylesheet" href="assets/css/bg-area.compiled.css">
+    <link rel="stylesheet" href="assets/css/sticky-form.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles/modal.compiled.css">
 </head>
 
 <body id="index" class="bg-dark">
@@ -49,8 +63,8 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header d-flex justify-content-end border-0 p-0">
-                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button type="button" class="close" data-dismiss="modal"
-                                    aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button class="close" type="button" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                            </div>
                             <div class="modal-body">
                                 <div class="container">
                                     <div class="row">
@@ -101,640 +115,700 @@
                                     <h2 class="d-lg-flex flex-lg-column card-title h1 font-weight-bold mt-3 mb-4"><span class="mr-2">Wyższy</span><span>poziom biura</span></h2>
                                     <p class="lead card-text mb-4">Czy posiadasz rozwiniętą firmę o ugruntowanej pozycji lub jesteś młodym start-upem, dołącz do społeczności Co:Spot.<br></p>
                                     <form>
-                                        <div class="form-group"><select class="form-control form-control-lg"><option value="Wybierz adres swojego biura" selected="">Wybierz adres swojego biura</option><option value="cs1">Łódź, Zachodnia 70</option><option value="cs2">Pabianice</option></select></div>
-                                        <div
-                                            class="form-group mb-0"><button class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" type="button">Rozpocznij</button></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 d-lg-block widget__column">
-                        <div class="card shadow border-0 frosted">
-                            <div class="card-body py-4 px-lg-4">
-                                <h2 class="d-lg-flex flex-lg-column card-title h1 font-weight-bold mt-3 mb-3"><span>Szukam biura</span></h2>
-                                <form>
-                                    <div>
-                                        <ul class="nav nav-tabs d-none" role="tablist">
-                                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Tab 1</a></li>
-                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Tab 2</a></li>
-                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Tab 3</a></li>
-                                        </ul>
-                                        <div class="tab-content">
-                                            <div class="tab-pane active d-flex" role="tabpanel" id="tab-1">
-                                                <div class="d-flex flex-column justify-content-between w-100">
-                                                    <div>
-                                                        <div class="form-group"><label class="font-weight-bold">Ile powierzchni?</label><select class="form-control"><option value="" selected="">Wybierz…</option><option value="Nie wiem">Nie wiem</option><option value="Do 50 m²">Do 50 m²</option><option value="50 - 100 m²">50 - 100 m²</option><option value="Powyżej 100 m²">Powyżej 100 m²</option></select></div>
-                                                        <div
-                                                            class="form-group"><label class="font-weight-bold">Ile osób?</label><select class="form-control"><option value="" selected="">Wybierz…</option><option value="Nie wiem">Nie wiem</option><option value=" 1 - 2">1 - 2</option><option value="2 - 6">2 - 6</option><option value="Powyżej 6">Powyżej 6</option></select></div>
-                                                </div>
-                                                <div>
-                                                    <div class="form-group mb-0"><a class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" role="tab" href="#tab-2" data-toggle="tab">Dalej</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane d-flex" role="tabpanel" id="tab-2">
-                                            <div class="d-flex flex-column justify-content-between w-100">
-                                                <div>
-                                                    <div class="form-group"><label class="font-weight-bold">Od kiedy?</label><select class="form-control"><option value="" selected="">Wybierz…</option><option value="Nie wiem">Nie wiem</option><option value="Dzisiaj">Dzisiaj</option><option value="1 - 2 msc">1 - 2 msc</option><option value="3 miesiące lub więcej">3 miesiące lub więcej</option></select></div>
-                                                    <div
-                                                        class="form-group"><label class="font-weight-bold">Razem z serwisem?</label><select class="form-control"><option value="" selected="">Wybierz…</option><option value="Nie wiem">Nie wiem</option><option value="Tak">Tak</option><option value="Nie">Nie</option></select></div>
-                                            </div>
-                                            <div>
-                                                <div class="form-group mb-0"><a class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" role="tab" href="#tab-3" data-toggle="tab">Dalej</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane d-flex" role="tabpanel" id="tab-3">
-                                        <div class="d-flex flex-column justify-content-between w-100">
-                                            <div>
-                                                <div class="form-group"><label class="font-weight-bold">Imię</label><input class="form-control" type="text" required=""></div>
-                                                <div class="form-group"><label class="font-weight-bold">Telefon</label><input class="form-control" type="tel" required=""></div>
-                                                <div class="form-group"><label class="font-weight-bold">E-mail</label><input class="form-control" type="email" required=""></div>
-                                            </div>
-                                            <div>
-                                                <div class="form-group mb-0"><button class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" type="submit">Wyślij</button></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-    </div>
-    </div>
-    </div>
-    <div class="bg-light py-5" style="background-image: linear-gradient(#ffffff, #f8f9fa);">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 py-3">
-                    <h4 class="font-weight-bold">Co:Working z all inclusive to coś więcej niż biurko<br></h4>
-                    <p class="text-primary font-weight-bold mb-4">Naszą misją jest stworzenie miejsca, dzięki któremu nasza społeczność może inwestować w rozwój osobisty oraz rozwój swojej firmy.&nbsp;<br></p>
-                    <div class="d-flex"><span class="text-primary d-flex align-items-baseline"><a class="mr-2" href="offices.html"><span>Zobacz naszą ofertę</span></a><i class="la la-arrow-right"></i></span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-md-4 d-flex py-3">
-                            <div class="card shadow p-3">
-                                <div class="content--box format--3-2">
-                                    <div><img src="assets/img/bg_2.jpg"></div>
-                                </div>
-                                <div class="card-body p-0 mt-3">
-                                    <h4 class="card-title h5 font-weight-bold"><a href="office.html">Open Space</a><br></h4>
-                                    <p class="card-text">Idealna przestrzeń do swobodnej pracy. Przy biurku, na kanapie - tak jak chcesz<br></p>
+                                        <div class="form-group"><select class="form-control form-control-lg">
+                                                <option value="Wybierz adres swojego biura" selected="">Wybierz adres swojego biura</option>
+                                                <option value="cs1">Łódź, Zachodnia 70</option>
+                                                <option value="cs2">Pabianice</option>
+                                            </select></div>
+                                        <div class="form-group mb-0"><button class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" type="button">Rozpocznij</button></div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 d-flex py-3">
-                            <div class="card shadow p-3">
-                                <div class="content--box format--3-2">
-                                    <div><img src="assets/img/bg_2.jpg"></div>
-                                </div>
-                                <div class="card-body p-0 mt-3">
-                                    <h4 class="card-title h5 font-weight-bold"><a href="office.html">Biura dedykowane</a><br></h4>
-                                    <p class="card-text">Praca w ciszy i skupieniu? Idealna przestrzeń dla zespołów od 2 do 12 osób<br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex py-3">
-                            <div class="card shadow p-3">
-                                <div class="content--box format--3-2">
-                                    <div><img src="assets/img/bg_2.jpg"></div>
-                                </div>
-                                <div class="card-body p-0 mt-3">
-                                    <h4 class="card-title h5 font-weight-bold"><a href="office.html">Sale konferencyjne</a><br></h4>
-                                    <p class="card-text">Miejsce dla wyjątkowych eventów, szkoleń, spotkań biznesowych czy małych prezentacji<br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="py-5">
-        <div class="container">
-            <h2 class="h1 font-weight-bold mb-3">Co mówią o nas klienci?</h2>
-            <div class="content--box format--16-9"><iframe allowfullscreen="" frameborder="0" src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/watch/?v=351969722716893&amp;width=1920" scrolling="no" allowtransparency="true" allow="encrypted-media" width="1920"
-                    height="1080"></iframe></div>
-        </div>
-    </div>
-    <div class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="d-flex flex-column justify-content-between align-items-baseline flex-wrap flex-lg-row mb-4">
-                        <h2 class="h1 font-weight-bold mb-lg-0">Historie sukcesu klientów</h2><span class="text-primary d-flex align-items-baseline"><a class="mr-2" href="companies.html"><span>Zobacz wszystkie analizy przypadków</span></a><i class="la la-arrow-right"></i></span>
-                    </div>
-                    <div class="bg-light px-3 p-sm-5">
-                        <div class="row flickity--slider hide--arrows">
-                            <div class="col-md-6 col-xl-6 py-3">
-                                <div class="card bg-transparent border-0">
-                                    <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
-                                    <div
-                                        class="card-body p-0">
-                                        <blockquote class="blockquote text-center">
-                                            <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
-                                            <footer
-                                                class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
-                                        </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-6 py-3">
-                            <div class="card bg-transparent border-0">
-                                <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
-                                <div
-                                    class="card-body p-0">
-                                    <blockquote class="blockquote text-center">
-                                        <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
-                                        <footer
-                                            class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
-                                    </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-6 py-3">
-                        <div class="card bg-transparent border-0">
-                            <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
-                            <div
-                                class="card-body p-0">
-                                <blockquote class="blockquote text-center">
-                                    <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
-                                    <footer
-                                        class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
-                                </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-6 py-3">
-                    <div class="card bg-transparent border-0">
-                        <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
-                        <div
-                            class="card-body p-0">
-                            <blockquote class="blockquote text-center">
-                                <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
-                                <footer
-                                    class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
-                            </blockquote>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div>
-                        <h2 class="text-primary font-weight-bold">Dlaczego Co:Spot?<br></h2>
-                        <p class="lead font-weight-normal">Porównując rozwiązania CoSpot do standardowego biura dla firmy z zespołem 20 osobowym jest to oczywiste, że CoSpot się opłaca. Pytanie rodzi się w jaki sposób CoSpot jest w stanie przy wysokiej jakości być aż tak bardzo atrakcyjnym
-                            rozwiązaniem. Jest to spowodowane bardzo wysoką efektywnością w budynku do zaadaptowania przestrzeni dla biur. Również skala CoSpotu w mieście powoduje, że wiele kosztów może być obniżona dla końcowego CoSpotowicza<br></p>
-                        <div
-                            class="row">
-                            <div class="col-md-6 col-xl-3 py-3">
-                                <div class="card border-0 bg-transparent">
-                                    <div class="content--box format--3-2">
-                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                    </div>
-                                    <div class="card-body p-0 mt-3">
-                                        <h4 class="card-title h5 font-weight-bold"><a href="#">Oszczędzaj czas</a><br></h4>
-                                        <p class="card-text">Skupiaj się na rozwoju biznesu, my zajmiemy się obsługą i serwisem Twojego biura<br></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-3 py-3">
-                                <div class="card border-0 bg-transparent">
-                                    <div class="content--box format--3-2">
-                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                    </div>
-                                    <div class="card-body p-0 mt-3">
-                                        <h4 class="card-title h5 font-weight-bold"><a href="#">Wybierz elastyczność</a><br></h4>
-                                        <p class="card-text">Zwiększaj lub zmniejszaj ilość pracowników w biurze w zależności co w danej chwili potrzebuje firma</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-3 py-3">
-                                <div class="card border-0 bg-transparent">
-                                    <div class="content--box format--3-2">
-                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                    </div>
-                                    <div class="card-body p-0 mt-3">
-                                        <h4 class="card-title h5 font-weight-bold"><a href="#">Zyskujesz prywatność</a><br></h4>
-                                        <p class="card-text">Prywatne przestrzenie pozwolą Ci pracować w ciszy i spokoju, z dala od zgiełku CoWorkingu<br></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-3 py-3">
-                                <div class="card border-0 bg-transparent">
-                                    <div class="content--box format--3-2">
-                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                    </div>
-                                    <div class="card-body p-0 mt-3">
-                                        <h4 class="card-title h5 font-weight-bold"><a href="#">Rozwijaj firmę</a><br></h4>
-                                        <p class="card-text">Skorzystaj z społeczności Co:Spota aby zdobyć nowe możliwości biznesowe<br></p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="text-white py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="bg-primary px-3 p-sm-5">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 py-3">
-                                <p class="text-white-50 h5 font-weight-bold mb-2">Co:Spot TV</p>
-                                <h3 class="font-weight-bold">Czy każdy może być programistą? Przemysław Mikus - Liki Mobile Solutions</h3>
-                                <p>W kolejnym odcinku Biznes po ludzku/Łódzku gościliśmy Przemysława Mikusa z firmy Liki Mobile Solutions. Przemek opowie nam o działalności Liki - czym się zajmują i jak się rozwinęli? Co powoduje, że programiści chcą pracować
-                                    w danej firmie i jak pozyskiwać pracowników?<br></p>
-                                <div class="d-flex"><span class="text-white d-flex align-items-baseline"><a class="text-white mr-2" href="#"><span>Więcej w Co:Spot TV</span></a><i class="la la-arrow-right"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 py-3">
-                                <div class="content--box format--16-9">
-                                    <div><iframe class="d-block w-100 h-100" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/5m_URVqJrDM"></iframe></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="py-5 section__page__main__media">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="h1 font-weight-bold mb-4">Piszą o nas</h2>
-                    <div class="bg-white">
-                        <div class="row align-items-center">
-                            <div class="col-sm-6 col-lg-3 py-3">
-                                <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_dziennik_lodzki_cospot.jpg" style="mix-blend-mode: multiply;"></div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3 py-3">
-                                <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_money_pl_cospot.jpg" style="mix-blend-mode: multiply;"></div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3 py-3">
-                                <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_wyborcza_lodz_cospot.jpg" style="mix-blend-mode: multiply;"></div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3 py-3">
-                                <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_lifein_lodzkie_cospot.jpg" style="mix-blend-mode: multiply;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-white py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="d-flex flex-column justify-content-between align-items-baseline flex-wrap flex-lg-row mb-4">
-                        <h2 class="h1 font-weight-bold mb-lg-0">Blog</h2><span class="text-primary d-flex align-items-baseline"><a class="mr-2" href="#"><span>Więcej naszych pomysłów</span></a><i class="la la-arrow-right"></i></span>
-                    </div>
-                    <div class="bg-light px-3 p-sm-4 p-md-5">
-                        <div class="row">
-                            <div class="col-xl-6 py-3">
-                                <div class="card border-0 bg-transparent">
-                                    <div class="content--box format--3-2">
-                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                    </div>
-                                    <div class="card-body p-0 mt-4">
-                                        <h4 class="card-title h5 font-weight-bold"><a class="h3 font-weight-bold" href="#">Nowe biuro – lista zakupów</a><br></h4>
-                                        <p class="card-text mb-1">Wynajęcie powierzchni pod nasze nowe biuro, to dopiero początek przygody. Na pewno należy uzbroić się w cierpliwość i dobrze przemyśleć co jest nam potrzebne, a lista zakupów nie jest krótka …a wszystko po to aby
-                                            nasi pracownicy chceli przychodzić do pracy i z uśmiechem rozwijali nasz biznes.<br></p><small class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small></div>
-                                </div>
-                            </div>
-                            <div class="col py-3">
-                                <h4 class="text-right text-black-50 font-weight-bold mb-4 h5 border-bottom pb-2">Pozostałe wpisy na blogu</h4>
-                                <div class="row">
-                                    <div class="col-12 py-3">
-                                        <div class="card border-0 bg-transparent">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-4 col-lg-3 col-xl-4 order-1 order-xl-2">
-                                                    <div class="content--box format--3-2">
-                                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col order-2 order-xl-1 mt-3 mt-md-0">
-                                                    <div class="card-body p-0">
-                                                        <h4 class="h6 font-weight-bold"><a href="#">Biuro All Inclusive - co to znaczy?</a></h4>
-                                                        <p class="text-justify mb-1 line-height-normal"><small>Jednym z najistotniejszych czynników przy wyborze biura na wynajem w Łodzi jest oczywiście&nbsp;cena najmu. Jednak na cenie najmu koszty biura się nie kończą. Ba, zdarza się, że&nbsp;koszty ukryte najmu…<br></small></p>
-                                                        <small
-                                                            class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <div class="card border-0 bg-transparent">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-4 col-lg-3 col-xl-4 order-1 order-xl-2">
-                                                    <div class="content--box format--3-2">
-                                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col order-2 order-xl-1 mt-3 mt-md-0">
-                                                    <div class="card-body p-0">
-                                                        <h4 class="h6 font-weight-bold"><a href="#">Biuro All Inclusive - co to znaczy?</a></h4>
-                                                        <p class="text-justify mb-1 line-height-normal"><small>Jednym z najistotniejszych czynników przy wyborze biura na wynajem w Łodzi jest oczywiście&nbsp;cena najmu. Jednak na cenie najmu koszty biura się nie kończą. Ba, zdarza się, że&nbsp;koszty ukryte najmu…<br></small></p>
-                                                        <small
-                                                            class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <div class="card border-0 bg-transparent">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-4 col-lg-3 col-xl-4 order-1 order-xl-2">
-                                                    <div class="content--box format--3-2">
-                                                        <div><img src="assets/img/bg_2.jpg"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col order-2 order-xl-1 mt-3 mt-md-0">
-                                                    <div class="card-body p-0">
-                                                        <h4 class="h6 font-weight-bold"><a href="#">Biuro All Inclusive - co to znaczy?</a></h4>
-                                                        <p class="text-justify mb-1 line-height-normal"><small>Jednym z najistotniejszych czynników przy wyborze biura na wynajem w Łodzi jest oczywiście&nbsp;cena najmu. Jednak na cenie najmu koszty biura się nie kończą. Ba, zdarza się, że&nbsp;koszty ukryte najmu…<br></small></p>
-                                                        <small
-                                                            class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <h2 class="h1 font-weight-bold">Poproś o konsultację</h2>
-                    <p class="lead">W ciągu 48&nbsp;godzin skontaktuje się z Tobą nasz ekspert<br></p>
-                </div>
-                <div class="col">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-12">
-                                <div class="form-group"><input class="form-control" type="text" placeholder="Imię i nazwisko"></div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-12">
-                                <div class="form-group"><input class="form-control" type="email" placeholder="Adres e-mail"></div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-12">
-                                <div class="form-group"><input class="form-control" type="tel" placeholder="Numer telefonu"></div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"><small>Kliknięcie oznacza zgodę na przetwarzanie danych osobowych. Zobacz więcej na Polityka Prywatności</small></label></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-12">
-                                <div class="form-group"><button class="btn btn-primary font-weight-bold rounded-pill px-4" type="button">Skontaktuj się</button></div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="h1 font-weight-bold">Społeczność</h2>
-                    <div class="row justify-content-center">
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
-                            <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="modal fade mb-4" role="dialog" tabindex="-1" id="contactModal">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-end border-0 p-0">
-                        <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                    <div
-                        class="modal-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <ul class="list-inline d-flex justify-content-between align-items-baseline flex-wrap lead">
-                                        <li class="list-inline-item text-primary d-flex align-items-baseline mr-3 my-1"><i class="fas fa-phone mr-2"></i><a class="text-nowrap text-primary" href="#">+48 537 743 333</a></li>
-                                        <li class="list-inline-item text-primary d-flex align-items-baseline my-1"><i class="far fa-envelope mr-2"></i><a class="text-primary" href="#">office@cospot.pl</a></li>
-                                    </ul>
-                                    <hr>
-                                    <h3 class="h5 font-weight-bold">Poproś o konsultację</h3>
-                                    <p>W ciągu 48&nbsp;godzin skontaktuje się z Tobą nasz ekspert<br></p>
+                        <div class="col-12 d-lg-block widget__column">
+                            <div class="card shadow border-0 frosted">
+                                <div class="card-body py-4 px-lg-4">
+                                    <h2 class="d-lg-flex flex-lg-column card-title h1 font-weight-bold mt-3 mb-3"><span>Szukam biura</span></h2>
                                     <form>
-                                        <div class="form-row">
-                                            <div class="col-12">
-                                                <div class="form-group"><input class="form-control" type="text" placeholder="Imię i nazwisko"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-12">
-                                                <div class="form-group"><input class="form-control" type="email" placeholder="Adres e-mail"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-12">
-                                                <div class="form-group"><input class="form-control" type="tel" placeholder="Numer telefonu"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"><small>Kliknięcie oznacza zgodę na przetwarzanie danych osobowych. Zobacz więcej na Polityka Prywatności</small></label></div>
+                                        <div>
+                                            <ul class="nav nav-tabs d-none" role="tablist">
+                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Tab 1</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Tab 2</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Tab 3</a></li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane active d-flex" role="tabpanel" id="tab-1">
+                                                    <div class="d-flex flex-column justify-content-between w-100">
+                                                        <div>
+                                                            <div class="form-group"><label class="font-weight-bold">Ile powierzchni?</label><select class="form-control">
+                                                                    <option value="" selected="">Wybierz…</option>
+                                                                    <option value="Nie wiem">Nie wiem</option>
+                                                                    <option value="Do 50 m²">Do 50 m²</option>
+                                                                    <option value="50 - 100 m²">50 - 100 m²</option>
+                                                                    <option value="Powyżej 100 m²">Powyżej 100 m²</option>
+                                                                </select></div>
+                                                            <div class="form-group"><label class="font-weight-bold">Ile osób?</label><select class="form-control">
+                                                                    <option value="" selected="">Wybierz…</option>
+                                                                    <option value="Nie wiem">Nie wiem</option>
+                                                                    <option value=" 1 - 2">1 - 2</option>
+                                                                    <option value="2 - 6">2 - 6</option>
+                                                                    <option value="Powyżej 6">Powyżej 6</option>
+                                                                </select></div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="form-group mb-0"><a class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" role="tab" href="#tab-2" data-toggle="tab">Dalej</a></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-12">
-                                                <div class="form-group"><button class="btn btn-primary btn-block font-weight-bold" type="button">Skontaktuj się</button></div>
+                                                <div class="tab-pane d-flex" role="tabpanel" id="tab-2">
+                                                    <div class="d-flex flex-column justify-content-between w-100">
+                                                        <div>
+                                                            <div class="form-group"><label class="font-weight-bold">Od kiedy?</label><select class="form-control">
+                                                                    <option value="" selected="">Wybierz…</option>
+                                                                    <option value="Nie wiem">Nie wiem</option>
+                                                                    <option value="Dzisiaj">Dzisiaj</option>
+                                                                    <option value="1 - 2 msc">1 - 2 msc</option>
+                                                                    <option value="3 miesiące lub więcej">3 miesiące lub więcej</option>
+                                                                </select></div>
+                                                            <div class="form-group"><label class="font-weight-bold">Razem z serwisem?</label><select class="form-control">
+                                                                    <option value="" selected="">Wybierz…</option>
+                                                                    <option value="Nie wiem">Nie wiem</option>
+                                                                    <option value="Tak">Tak</option>
+                                                                    <option value="Nie">Nie</option>
+                                                                </select></div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="form-group mb-0"><a class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" role="tab" href="#tab-3" data-toggle="tab">Dalej</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane d-flex" role="tabpanel" id="tab-3">
+                                                    <div class="d-flex flex-column justify-content-between w-100">
+                                                        <div>
+                                                            <div class="form-group"><label class="font-weight-bold">Imię</label><input class="form-control" type="text" required=""></div>
+                                                            <div class="form-group"><label class="font-weight-bold">Telefon</label><input class="form-control" type="tel" required=""></div>
+                                                            <div class="form-group"><label class="font-weight-bold">E-mail</label><input class="form-control" type="email" required=""></div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="form-group mb-0"><button class="btn btn-primary btn-lg text-uppercase font-weight-bold rounded-pill px-4" type="submit">Wyślij</button></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    </div>
-    <div class="fixed-bottom">
-        <div class="container px-0 px-sm-3">
-            <div class="row justify-content-sm-end">
-                <div class="col-sm-auto"><button class="btn btn-primary btn-block text-uppercase font-weight-bold" type="button" data-toggle="modal" data-target="#contactModal"><span>Zapytaj nas o biuro</span></button></div>
-            </div>
-        </div>
-    </div>
-    </main>
-    <footer class="bg-light">
-        <div class="py-5">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col py-3">
-                        <div class="row">
-                            <div class="col">
-                                <h2 class="text-muted h5 font-weight-bold">O nas</h2>
-                                <p class="lead">Co:Spot Office and Coworking, to połączenie biura serwisowanego ze społecznością przedsiębiorców, dla których networking jest kluczowy w rozwijaniu swojego biznesu, a wysoki standard biura i jego elastyczność powala im
-                                    pracować z najlepszymi.<br></p>
-                            </div>
-                            <div class="col-sm-auto">
-                                <div class="d-flex"><a href="https://www.mojekonferencje.pl/lodz/cospot-office-coworking" target="_blank"><img src="assets/img/obiekt_rekomendowany.png"></a></div>
-                            </div>
+            <div class="bg-light py-5" style="background-image: linear-gradient(#ffffff, #f8f9fa);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 py-3">
+                            <h4 class="font-weight-bold">Co:Working z all inclusive to coś więcej niż biurko<br></h4>
+                            <p class="text-primary font-weight-bold mb-4">Naszą misją jest stworzenie miejsca, dzięki któremu nasza społeczność może inwestować w rozwój osobisty oraz rozwój swojej firmy.&nbsp;<br></p>
+                            <div class="d-flex"><span class="text-primary d-flex align-items-baseline"><a class="mr-2" href="offices.html"><span>Zobacz naszą ofertę</span></a><i class="la la-arrow-right"></i></span></div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="col py-3">
-                                <h3 class="text-muted h5 font-weight-bold">Kontakt</h3>
-                                <div class="row align-items-center">
-                                    <div class="col-sm-6 col-md-4">
-                                        <p class="lead mb-3 font-weight-normal">ul. Zachodnia 70<br>90-403 Łódź</p>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-4 d-flex py-3">
+                                    <div class="card shadow p-3">
+                                        <div class="content--box format--3-2">
+                                            <div><img src="assets/img/bg_2.jpg"></div>
+                                        </div>
+                                        <div class="card-body p-0 mt-3">
+                                            <h4 class="card-title h5 font-weight-bold"><a href="office.html">Open Space</a><br></h4>
+                                            <p class="card-text">Idealna przestrzeń do swobodnej pracy. Przy biurku, na kanapie - tak jak chcesz<br></p>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-6 col-md-4">
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="text-dark"><i class="fas fa-phone mr-2"></i><a class="text-dark" href="#">+48 537 743 333</a></li>
-                                            <li><i class="far fa-envelope mr-2"></i><a class="text-dark" href="#">office@cospot.pl</a></li>
-                                        </ul>
+                                </div>
+                                <div class="col-md-4 d-flex py-3">
+                                    <div class="card shadow p-3">
+                                        <div class="content--box format--3-2">
+                                            <div><img src="assets/img/bg_2.jpg"></div>
+                                        </div>
+                                        <div class="card-body p-0 mt-3">
+                                            <h4 class="card-title h5 font-weight-bold"><a href="office.html">Biura dedykowane</a><br></h4>
+                                            <p class="card-text">Praca w ciszy i skupieniu? Idealna przestrzeń dla zespołów od 2 do 12 osób<br></p>
+                                        </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <ul class="list-inline d-flex align-items-center mb-3">
-                                            <li class="list-inline-item mr-4"><a class="h4 mb-0" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li class="list-inline-item mr-4"><a class="text-primary h4 mb-0" href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li class="list-inline-item mr-4"><a class="text-primary h4 mb-0" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
+                                </div>
+                                <div class="col-md-4 d-flex py-3">
+                                    <div class="card shadow p-3">
+                                        <div class="content--box format--3-2">
+                                            <div><img src="assets/img/bg_2.jpg"></div>
+                                        </div>
+                                        <div class="card-body p-0 mt-3">
+                                            <h4 class="card-title h5 font-weight-bold"><a href="office.html">Sale konferencyjne</a><br></h4>
+                                            <p class="card-text">Miejsce dla wyjątkowych eventów, szkoleń, spotkań biznesowych czy małych prezentacji<br></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-auto">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-4 col-lg-auto py-3">
-                                <h3 class="text-muted h5 font-weight-bold">Firma</h3>
-                                <ul class="list-unstyled mb-0">
-                                    <li><a class="text-left text-dark" href="#">Co:Spot</a></li>
-                                    <li><a class="text-dark" href="#">Społeczność</a></li>
-                                    <li><a class="text-dark" href="#">Oferta</a></li>
-                                    <li><a class="text-dark" href="#">Blog</a></li>
-                                    <li><a class="text-dark" href="#">Co:Spot TV</a></li>
-                                    <li><a class="text-dark" href="#">Kontakt</a></li>
-                                </ul>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div>
+                        <div class="row my-n3">
+                            <div class="col-12 col-lg-4 d-flex order-first order-lg-last py-3">
+                                <div class="flex-fill content--box format--3-4">
+                                    <div><img src="assets/img/bg_2.jpg"></div>
+                                </div>
                             </div>
-                            <div class="col-sm-4 col-lg-auto py-3">
-                                <h3 class="text-muted h5 font-weight-bold">Oferta</h3>
-                                <ul class="list-unstyled mb-0">
-                                    <li><a class="text-left text-dark" href="#">Coworking</a></li>
-                                    <li><a class="text-dark" href="#">Biura prywatne</a></li>
-                                    <li><a class="text-dark" href="#">Biurka dedykowane</a></li>
-                                    <li><a class="text-dark" href="#">Biura firmowe</a></li>
-                                    <li class="text-dark"><a class="text-dark" href="#">Salki konferencyjne</a></li>
-                                </ul>
+                            <div class="col order-last order-lg-first py-3">
+                                <h2 class="h1 font-weight-bold mb-3">Solutions for business of all sizes</h2>
+                                <div>
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-4">For individuals / small teams</a></li>
+                                        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-5">For medium / large companies</a></li>
+                                    </ul>
+                                    <div class="tab-content pt-3">
+                                        <div class="tab-pane fade show active" role="tabpanel" id="tab-4">
+                                            <p>Cenisz sobie spokój oraz produktywność i efektywność w pracy, jednocześnie będąc częścią większej społeczności? Zdecydowanie dobrze trafiłeś! Bez względu na to czy prowadzisz działalność jednoosobową, czy pracujesz z zespołem — w Co:Spotcie znajdziesz swoje wymarzone miejsce do pracy. Z bogatej oferty biur prywatnych wybierzemy powierzchnię spełniającą Twoje wymagania i dostosujemy ją do potrzeb Twojego biznesu. Wybierając Co:spot dostajesz pełen wachlarz usług i pakietów nie martwiąc się niczym poza pracą.</p>
+                                            <p>Community Manager wraz z zespołem zadba, aby sprzęt działał sprawnie, kawa smakowała najlepiej, a atmosfera powodowała uśmiech na twarzy bez względu na okoliczności!</p>
+                                            <div><a class="btn btn-primary font-weight-bold rounded-pill px-4" role="button" href="#!">Czytaj dalej…</a></div>
+                                        </div>
+                                        <div class="tab-pane fade" role="tabpanel" id="tab-5">
+                                            <p>Potrzebujesz przestronnej przestrzeni, która sprzyja efektywności i produktywności Twoich pracowników? Chcesz, aby Twoja firma rozwijała się i rozrastała? Oferta biurowa Co:Spotu to przyjazna i designerska przestrzeń, szybki internet, niezbędny sprzęt biurowy oraz jedyna w swoim rodzaju społeczność, która motywuje i inspiruje do działania! Dzięki elastyczności, która nas wyróżnia, możesz w dowolnym momencie rozwijać swoją firmę i poszerzać przestrzeń biurową w zależności od aktualnych potrzeb.</p>
+                                            <div><a class="btn btn-primary font-weight-bold rounded-pill px-4" role="button" href="#!">Czytaj dalej…</a></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-lg-between my-3">
-                    <div class="col-lg-auto order-1 order-lg-2 py-3">
-                        <ul class="list-inline d-flex justify-content-center mb-0">
-                            <li class="list-inline-item"><a href="#">Polityka prywatności</a></li>
-                            <li class="list-inline-item"><a href="#">Polityka cookies</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-auto order-2 order-lg-1 py-3">
-                        <ul class="list-inline d-flex flex-column align-items-center flex-lg-row mb-0">
-                            <li class="list-inline-item">© 2020 Co:Spot All rights reserved</li>
-                            <li class="list-inline-item">Projekt i realizacja:&nbsp;<a href="#">KDMC</a></li>
-                        </ul>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <h2 class="h1 font-weight-bold mb-3">Co mówią o nas klienci?</h2>
+                    <div class="content--box format--16-9"><iframe allowfullscreen="" frameborder="0" src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/watch/?v=351969722716893&amp;width=1920" scrolling="no" allowtransparency="true" allow="encrypted-media" width="1920" height="1080"></iframe></div>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex flex-column justify-content-between align-items-baseline flex-wrap flex-lg-row mb-4">
+                                <h2 class="h1 font-weight-bold mb-lg-0">Historie sukcesu klientów</h2><span class="text-primary d-flex align-items-baseline"><a class="mr-2" href="companies.html"><span>Zobacz wszystkie analizy przypadków</span></a><i class="la la-arrow-right"></i></span>
+                            </div>
+                            <div class="bg-light px-3 p-sm-5">
+                                <div class="row flickity--slider hide--arrows">
+                                    <div class="col-md-6 col-xl-6 py-3">
+                                        <div class="card bg-transparent border-0">
+                                            <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
+                                            <div class="card-body p-0">
+                                                <blockquote class="blockquote text-center">
+                                                    <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
+                                                    <footer class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-6 py-3">
+                                        <div class="card bg-transparent border-0">
+                                            <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
+                                            <div class="card-body p-0">
+                                                <blockquote class="blockquote text-center">
+                                                    <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
+                                                    <footer class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-6 py-3">
+                                        <div class="card bg-transparent border-0">
+                                            <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
+                                            <div class="card-body p-0">
+                                                <blockquote class="blockquote text-center">
+                                                    <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
+                                                    <footer class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-6 py-3">
+                                        <div class="card bg-transparent border-0">
+                                            <div class="d-flex justify-content-center mb-0"><a class="d-block card-img-top width--240" href="company.html"><span class="bg-light d-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="assets/img/mini_easyshare-logo-cospot.jpg" style="mix-blend-mode: multiply"></span></a></div>
+                                            <div class="card-body p-0">
+                                                <blockquote class="blockquote text-center">
+                                                    <p class="mb-2"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</em></p>
+                                                    <footer class="blockquote-footer text-uppercase text-primary font-weight-bold h5 mb-0">Someone famous</footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+            <div class="bg-light py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <h2 class="text-primary font-weight-bold">Dlaczego Co:Spot?<br></h2>
+                                <p class="lead font-weight-normal">Porównując rozwiązania CoSpot do standardowego biura dla firmy z zespołem 20 osobowym jest to oczywiste, że CoSpot się opłaca. Pytanie rodzi się w jaki sposób CoSpot jest w stanie przy wysokiej jakości być aż tak bardzo atrakcyjnym rozwiązaniem. Jest to spowodowane bardzo wysoką efektywnością w budynku do zaadaptowania przestrzeni dla biur. Również skala CoSpotu w mieście powoduje, że wiele kosztów może być obniżona dla końcowego CoSpotowicza<br></p>
+                                <div class="row">
+                                    <div class="col-md-6 col-xl-3 py-3">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="content--box format--3-2">
+                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                            </div>
+                                            <div class="card-body p-0 mt-3">
+                                                <h4 class="card-title h5 font-weight-bold"><a href="#">Oszczędzaj czas</a><br></h4>
+                                                <p class="card-text">Skupiaj się na rozwoju biznesu, my zajmiemy się obsługą i serwisem Twojego biura<br></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3 py-3">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="content--box format--3-2">
+                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                            </div>
+                                            <div class="card-body p-0 mt-3">
+                                                <h4 class="card-title h5 font-weight-bold"><a href="#">Wybierz elastyczność</a><br></h4>
+                                                <p class="card-text">Zwiększaj lub zmniejszaj ilość pracowników w biurze w zależności co w danej chwili potrzebuje firma</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3 py-3">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="content--box format--3-2">
+                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                            </div>
+                                            <div class="card-body p-0 mt-3">
+                                                <h4 class="card-title h5 font-weight-bold"><a href="#">Zyskujesz prywatność</a><br></h4>
+                                                <p class="card-text">Prywatne przestrzenie pozwolą Ci pracować w ciszy i spokoju, z dala od zgiełku CoWorkingu<br></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3 py-3">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="content--box format--3-2">
+                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                            </div>
+                                            <div class="card-body p-0 mt-3">
+                                                <h4 class="card-title h5 font-weight-bold"><a href="#">Rozwijaj firmę</a><br></h4>
+                                                <p class="card-text">Skorzystaj z społeczności Co:Spota aby zdobyć nowe możliwości biznesowe<br></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="bg-primary px-3 p-sm-5">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 py-3">
+                                        <p class="text-white-50 h5 font-weight-bold mb-2">Co:Spot TV</p>
+                                        <h3 class="font-weight-bold">Czy każdy może być programistą? Przemysław Mikus - Liki Mobile Solutions</h3>
+                                        <p>W kolejnym odcinku Biznes po ludzku/Łódzku gościliśmy Przemysława Mikusa z firmy Liki Mobile Solutions. Przemek opowie nam o działalności Liki - czym się zajmują i jak się rozwinęli? Co powoduje, że programiści chcą pracować w danej firmie i jak pozyskiwać pracowników?<br></p>
+                                        <div class="d-flex"><span class="text-white d-flex align-items-baseline"><a class="text-white mr-2" href="#"><span>Więcej w Co:Spot TV</span></a><i class="la la-arrow-right"></i></span></div>
+                                    </div>
+                                    <div class="col-lg-6 py-3">
+                                        <div class="content--box format--16-9">
+                                            <div><iframe class="d-block w-100 h-100" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/5m_URVqJrDM"></iframe></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-5 section__page__main__media">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="h1 font-weight-bold mb-4">Piszą o nas</h2>
+                            <div class="bg-white">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-6 col-lg-3 py-3">
+                                        <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_dziennik_lodzki_cospot.jpg" style="mix-blend-mode: multiply;"></div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 py-3">
+                                        <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_money_pl_cospot.jpg" style="mix-blend-mode: multiply;"></div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 py-3">
+                                        <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_wyborcza_lodz_cospot.jpg" style="mix-blend-mode: multiply;"></div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 py-3">
+                                        <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-block width--200" src="assets/img/medium_lifein_lodzkie_cospot.jpg" style="mix-blend-mode: multiply;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex flex-column justify-content-between align-items-baseline flex-wrap flex-lg-row mb-4">
+                                <h2 class="h1 font-weight-bold mb-lg-0">Blog</h2><span class="text-primary d-flex align-items-baseline"><a class="mr-2" href="#"><span>Więcej naszych pomysłów</span></a><i class="la la-arrow-right"></i></span>
+                            </div>
+                            <div class="bg-light px-3 p-sm-4 p-md-5">
+                                <div class="row">
+                                    <div class="col-xl-6 py-3">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="content--box format--3-2">
+                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                            </div>
+                                            <div class="card-body p-0 mt-4">
+                                                <h4 class="card-title h5 font-weight-bold"><a class="h3 font-weight-bold" href="#">Nowe biuro – lista zakupów</a><br></h4>
+                                                <p class="card-text mb-1">Wynajęcie powierzchni pod nasze nowe biuro, to dopiero początek przygody. Na pewno należy uzbroić się w cierpliwość i dobrze przemyśleć co jest nam potrzebne, a lista zakupów nie jest krótka …a wszystko po to aby nasi pracownicy chceli przychodzić do pracy i z uśmiechem rozwijali nasz biznes.<br></p><small class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col py-3">
+                                        <h4 class="text-right text-black-50 font-weight-bold mb-4 h5 border-bottom pb-2">Pozostałe wpisy na blogu</h4>
+                                        <div class="row">
+                                            <div class="col-12 py-3">
+                                                <div class="card border-0 bg-transparent">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-lg-3 col-xl-4 order-1 order-xl-2">
+                                                            <div class="content--box format--3-2">
+                                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col order-2 order-xl-1 mt-3 mt-md-0">
+                                                            <div class="card-body p-0">
+                                                                <h4 class="h6 font-weight-bold"><a href="#">Biuro All Inclusive - co to znaczy?</a></h4>
+                                                                <p class="text-justify mb-1 line-height-normal"><small>Jednym z najistotniejszych czynników przy wyborze biura na wynajem w Łodzi jest oczywiście&nbsp;cena najmu. Jednak na cenie najmu koszty biura się nie kończą. Ba, zdarza się, że&nbsp;koszty ukryte najmu…<br></small></p><small class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <div class="card border-0 bg-transparent">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-lg-3 col-xl-4 order-1 order-xl-2">
+                                                            <div class="content--box format--3-2">
+                                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col order-2 order-xl-1 mt-3 mt-md-0">
+                                                            <div class="card-body p-0">
+                                                                <h4 class="h6 font-weight-bold"><a href="#">Biuro All Inclusive - co to znaczy?</a></h4>
+                                                                <p class="text-justify mb-1 line-height-normal"><small>Jednym z najistotniejszych czynników przy wyborze biura na wynajem w Łodzi jest oczywiście&nbsp;cena najmu. Jednak na cenie najmu koszty biura się nie kończą. Ba, zdarza się, że&nbsp;koszty ukryte najmu…<br></small></p><small class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <div class="card border-0 bg-transparent">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-lg-3 col-xl-4 order-1 order-xl-2">
+                                                            <div class="content--box format--3-2">
+                                                                <div><img src="assets/img/bg_2.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col order-2 order-xl-1 mt-3 mt-md-0">
+                                                            <div class="card-body p-0">
+                                                                <h4 class="h6 font-weight-bold"><a href="#">Biuro All Inclusive - co to znaczy?</a></h4>
+                                                                <p class="text-justify mb-1 line-height-normal"><small>Jednym z najistotniejszych czynników przy wyborze biura na wynajem w Łodzi jest oczywiście&nbsp;cena najmu. Jednak na cenie najmu koszty biura się nie kończą. Ba, zdarza się, że&nbsp;koszty ukryte najmu…<br></small></p><small class="text-primary"><a class="mr-2" href="companies.html"><span>Czytaj więcej</span></a><i class="la la-arrow-right"></i></small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <h2 class="h1 font-weight-bold">Poproś o konsultację</h2>
+                            <p class="lead">W ciągu 48&nbsp;godzin skontaktuje się z Tobą nasz ekspert<br></p>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col-12">
+                                        <div class="form-group"><input class="form-control" type="text" placeholder="Imię i nazwisko"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-12">
+                                        <div class="form-group"><input class="form-control" type="email" placeholder="Adres e-mail"></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group"><input class="form-control" type="number" placeholder="Ilość osób"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-12">
+                                        <div class="form-group"><input class="form-control" type="tel" placeholder="Numer telefonu"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"><small>Kliknięcie oznacza zgodę na przetwarzanie danych osobowych. Zobacz więcej na Polityka Prywatności</small></label></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-12">
+                                        <div class="form-group"><button class="btn btn-primary font-weight-bold rounded-pill px-4" type="button">Skontaktuj się</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="h1 font-weight-bold">Społeczność</h2>
+                            <div class="row justify-content-center">
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                                    <div class="d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/sample-150-75.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="h1 font-weight-bold">Grupa A&amp;A - poznaj nas</h2>
+                            <div class="row mx-n1">
+                                <div class="col-6 col-sm-4 col-lg-2 px-1"><a class="d-block" href="https://www.nieruchomosci.aia.pl/"><img class="img-fluid" src="assets/img/aia-1.jpeg"></a></div>
+                                <div class="col-6 col-sm-4 col-lg-2 px-1"><a class="d-block" href="https://domjubilerski.aia.pl/" target="_blank"><img class="img-fluid" src="assets/img/aia-2.webp"></a></div>
+                                <div class="col-6 col-sm-4 col-lg-2 px-1"><a class="d-block" href="http://niemodlinzamek.pl/" target="_blank"><img class="img-fluid" src="assets/img/aia-3.jpeg"></a></div>
+                                <div class="col-6 col-sm-4 col-lg-2 px-1"><a class="d-block" href="https://centrumtkalnia.pl/" target="_blank"><img class="img-fluid" src="assets/img/aia-4.webp"></a></div>
+                                <div class="col-6 col-sm-4 col-lg-2 px-1"><a class="d-block" href="https://cospot.pl/" target="_blank"><img class="img-fluid" src="assets/img/aia-5.webp"></a></div>
+                                <div class="col-6 col-sm-4 col-lg-2 px-1"><a class="d-block" href="https://magazynbawelny.pl/" target="_blank"><img class="img-fluid" src="assets/img/aia-6.jpeg"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="modal fade mb-4" role="dialog" tabindex="-1" id="contactModal">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header d-flex justify-content-end border-0 p-0">
+                                <div><button class="btn btn-link border-left border-bottom px-3" data-dismiss="modal" type="button"><span class="text-dark"><i class="fas fa-times"></i></span></button></div><button class="close" type="button" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul class="list-inline d-flex justify-content-between align-items-baseline flex-wrap lead">
+                                                <li class="list-inline-item text-primary d-flex align-items-baseline mr-3 my-1"><i class="fas fa-phone mr-2"></i><a class="text-nowrap text-primary" href="#">+48 537 743 333</a></li>
+                                                <li class="list-inline-item text-primary d-flex align-items-baseline my-1"><i class="far fa-envelope mr-2"></i><a class="text-primary" href="#">office@cospot.pl</a></li>
+                                            </ul>
+                                            <hr>
+                                            <h3 class="h5 font-weight-bold">Poproś o konsultację</h3>
+                                            <p>W ciągu 48&nbsp;godzin skontaktuje się z Tobą nasz ekspert<br></p>
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="col-12">
+                                                        <div class="form-group"><input class="form-control" type="text" placeholder="Imię i nazwisko"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12">
+                                                        <div class="form-group"><input class="form-control" type="email" placeholder="Adres e-mail"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12">
+                                                        <div class="form-group"><input class="form-control" type="tel" placeholder="Numer telefonu"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"><small>Kliknięcie oznacza zgodę na przetwarzanie danych osobowych. Zobacz więcej na Polityka Prywatności</small></label></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-12">
+                                                        <div class="form-group"><button class="btn btn-primary btn-block font-weight-bold" type="button">Skontaktuj się</button></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fixed-bottom">
+                <div class="container px-0 px-sm-3">
+                    <div class="row justify-content-sm-end">
+                        <div class="col-sm-auto"><button class="btn btn-primary btn-block text-uppercase font-weight-bold" type="button" data-toggle="modal" data-target="#contactModal"><span>Zapytaj nas o biuro</span></button></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-light">
+            <div class="py-5">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col py-3">
+                            <div class="row">
+                                <div class="col">
+                                    <h2 class="text-muted h5 font-weight-bold">O nas</h2>
+                                    <p class="lead">Co:Spot Office and Coworking, to połączenie biura serwisowanego ze społecznością przedsiębiorców, dla których networking jest kluczowy w rozwijaniu swojego biznesu, a wysoki standard biura i jego elastyczność powala im pracować z najlepszymi.<br></p>
+                                </div>
+                                <div class="col-sm-auto">
+                                    <div class="d-flex"><a href="https://www.mojekonferencje.pl/lodz/cospot-office-coworking" target="_blank"><img src="assets/img/obiekt_rekomendowany.png"></a></div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col py-3">
+                                    <h3 class="text-muted h5 font-weight-bold">Kontakt</h3>
+                                    <div class="row align-items-center">
+                                        <div class="col-sm-6 col-md-4">
+                                            <p class="lead mb-3 font-weight-normal">ul. Zachodnia 70<br>90-403 Łódź</p>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="text-dark"><i class="fas fa-phone mr-2"></i><a class="text-dark" href="#">+48 537 743 333</a></li>
+                                                <li><i class="far fa-envelope mr-2"></i><a class="text-dark" href="#">office@cospot.pl</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul class="list-inline d-flex align-items-center mb-3">
+                                                <li class="list-inline-item mr-4"><a class="h4 mb-0" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li class="list-inline-item mr-4"><a class="text-primary h4 mb-0" href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li class="list-inline-item mr-4"><a class="text-primary h4 mb-0" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-auto">
+                            <div class="row justify-content-start">
+                                <div class="col-sm-4 col-lg-auto py-3">
+                                    <h3 class="text-muted h5 font-weight-bold">Firma</h3>
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a class="text-left text-dark" href="#">Co:Spot</a></li>
+                                        <li><a class="text-dark" href="#">Społeczność</a></li>
+                                        <li><a class="text-dark" href="#">Oferta</a></li>
+                                        <li><a class="text-dark" href="#">Blog</a></li>
+                                        <li><a class="text-dark" href="#">Co:Spot TV</a></li>
+                                        <li><a class="text-dark" href="#">Kontakt</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4 col-lg-auto py-3">
+                                    <h3 class="text-muted h5 font-weight-bold">Oferta</h3>
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a class="text-left text-dark" href="#">Coworking</a></li>
+                                        <li><a class="text-dark" href="#">Biura prywatne</a></li>
+                                        <li><a class="text-dark" href="#">Biurka dedykowane</a></li>
+                                        <li><a class="text-dark" href="#">Biura firmowe</a></li>
+                                        <li class="text-dark"><a class="text-dark" href="#">Salki konferencyjne</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-lg-between my-3">
+                        <div class="col-lg-auto order-1 order-lg-2 py-3">
+                            <ul class="list-inline d-flex justify-content-center mb-0">
+                                <li class="list-inline-item"><a href="#">Polityka prywatności</a></li>
+                                <li class="list-inline-item"><a href="#">Polityka cookies</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-auto order-2 order-lg-1 py-3">
+                            <ul class="list-inline d-flex flex-column align-items-center flex-lg-row mb-0">
+                                <li class="list-inline-item">© 2020 Co:Spot All rights reserved</li>
+                                <li class="list-inline-item">Projekt i realizacja:&nbsp;<a href="#">KDMC</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/libs/flickity.pkgd.js"></script>
+    <script src="assets/js/libs/jquery.fancybox.js"></script>
+    <script src="assets/js/svg.js"></script>
+    <script src="assets/js/flickity.js"></script>
+    <script src="assets/js/sticky-form.js"></script>
 </body>
 
 </html>
